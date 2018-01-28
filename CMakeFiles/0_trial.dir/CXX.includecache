@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bumblebee/Softwares/OpenCV/Examples/0_trial.cpp
+stdio.h
+-
+iostream
+-
+opencv2/calib3d/calib3d.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/calib3d/calib3d.hpp
+opencv2/core/core.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/core/core.hpp
+opencv2/imgcodecs.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/imgcodecs.hpp
+opencv2/highgui/highgui.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/highgui/highgui.hpp
+opencv2/imgproc.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/imgproc.hpp
+opencv2/imgcodecs.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/imgcodecs.hpp
+opencv2/highgui.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/highgui.hpp
+

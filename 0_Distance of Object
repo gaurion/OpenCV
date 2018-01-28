@@ -1,0 +1,1 @@
+distance to object (mm) = focal length (mm) * real height of the object (mm) * image height (pixels)/ (object height (pixels) * sensor height (mm))

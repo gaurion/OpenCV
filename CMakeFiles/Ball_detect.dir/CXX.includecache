@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bumblebee/Softwares/OpenCV/Examples/Ball_detect.cpp
+cv.h
+-
+highgui.h
+-
+cxcore.h
+-
+opencv2/imgproc.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/imgproc.hpp
+opencv2/highgui.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/highgui.hpp
+iostream
+-
+stdlib.h
+-
+

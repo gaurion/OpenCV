@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bumblebee/Softwares/OpenCV/Examples/20_morph_hvlines.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+

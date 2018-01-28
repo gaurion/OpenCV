@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bumblebee/Softwares/OpenCV/Examples/23_thresh_inrange.cpp
+opencv2/highgui.hpp
+/home/bumblebee/Softwares/OpenCV/Examples/opencv2/highgui.hpp
+iostream
+-
+stdlib.h
+-
+
