@@ -27,7 +27,11 @@ int main(int argc, char** argv)
         cout << "no image_name provided" << endl;
         return -1;
     }
+<<<<<<< HEAD
     Mat src = imread("pipe.jpg", 0);
+=======
+    Mat src = imread("pipel_threshold.jpg", 0);
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
     if(src.empty())
     {
         help();
@@ -61,6 +65,11 @@ int main(int argc, char** argv)
         line( cdst, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0,0,255), 3, LINE_AA);
     }
 #endif
+<<<<<<< HEAD
+=======
+	namedWindow("source",WINDOW_NORMAL);
+	namedWindow("detected lines",WINDOW_NORMAL);
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
     imshow("source", src);
     imshow("detected lines", cdst);
     waitKey();

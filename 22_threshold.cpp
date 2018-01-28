@@ -1,5 +1,9 @@
 #include "opencv2/imgproc.hpp"
+<<<<<<< HEAD
 //#include "opencv2/imgcodecs.hpp"
+=======
+#include "opencv2/imgcodecs.hpp"
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
 #include "opencv2/highgui.hpp"
 #include<iostream>
 
@@ -18,7 +22,11 @@ void Threshold_Demo( int, void* );
 int main( int, char** argv )
 {
 	cout<<"TYPE : 0: Binary 1: Binary Inverted 2: Truncate 3: To Zero 4: To Zero Inverted"<<endl;
+<<<<<<< HEAD
   src = imread( "f1.jpg", IMREAD_COLOR ); // Load an image
+=======
+  src = imread( "arena.png", IMREAD_COLOR ); // Load an image
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
   if( src.empty() )
     { return -1; }
   cvtColor( src, src_gray, COLOR_BGR2GRAY ); // Convert the image to Gray

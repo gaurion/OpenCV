@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //#include "opencv2/imgproc.hpp"
+=======
+#include "opencv2/imgproc.hpp"
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
 #include "opencv2/highgui.hpp"
 #include <iostream>
 #include <stdlib.h>
@@ -25,7 +29,11 @@ int main()
     createTrackbar("Low B","Object Detection", &low_b, 255, on_low_b_thresh_trackbar);
     createTrackbar("High B","Object Detection", &high_b, 255, on_high_b_thresh_trackbar);
     while(char(waitKey(1))!='q'){
+<<<<<<< HEAD
         frame=imread("f1.jpg");
+=======
+        frame=imread("pipe.jpg");
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
         if(frame.empty())
             break;
         //-- Detect the object based on RGB Range Values

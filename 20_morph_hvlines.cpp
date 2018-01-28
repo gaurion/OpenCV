@@ -5,7 +5,11 @@ using namespace cv;
 int main(int, char** argv)
 {
     // Load the image
+<<<<<<< HEAD
     Mat src = imread("foot1.jpg");
+=======
+    Mat src = imread("arena.png");
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
     // Check if image is loaded fine
     if(!src.data)
         cerr << "Problem loading image!!!" << endl;

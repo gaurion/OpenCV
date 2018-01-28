@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //#include <opencv2/imgcodecs.hpp>
+=======
+#include <opencv2/imgcodecs.hpp>
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <iostream>
@@ -13,7 +17,11 @@ int main( int argc, char* argv[])
 
 	Mat src,dst0,dst1;
 
+<<<<<<< HEAD
         src = imread( "f1.jpg", IMREAD_COLOR);
+=======
+        src = imread( "test.jpg", IMREAD_COLOR);
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
 
     namedWindow("Input", WINDOW_NORMAL);
     namedWindow("Output", WINDOW_NORMAL);

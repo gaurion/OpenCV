@@ -40,7 +40,11 @@ int main()
     createTrackbar("Low B","Object Detection", &low_b, 255, on_low_b_thresh_trackbar);
     createTrackbar("High B","Object Detection", &high_b, 255, on_high_b_thresh_trackbar);
     while(char(waitKey(1))!='q'){
+<<<<<<< HEAD
         frame=imread("f1.jpg");
+=======
+        frame=imread("pipel.jpg");
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
         if(frame.empty())
             break;
         //-- Detect the object based on RGB Range Values
@@ -145,5 +149,8 @@ for( int i = 0; i< contours.size(); i++ ) // iterate through each contour.
   /// Show in a window
   namedWindow( "Contours", WINDOW_NORMAL );
   imshow( "Contours", drawing );
+<<<<<<< HEAD
 	imwrite("pipel_contour.jpg",drawing);
+=======
+>>>>>>> c959186273f830fd452c6e6f6310caa3a93dd8a8
 }
